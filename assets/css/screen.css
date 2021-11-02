@@ -42,3 +42,45 @@ html {
   width: 13.8888888em;  /* 250 / 18 = 13.8888888 */
   margin: 0 0.5em 0 0;
 }
+h1 {
+  font-weight: 700;
+  font-size: 1.77688889em; /* 31.984 / 18 = 1.77688889 */
+}
+h2 {
+  font-weight: 600;
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+}
+#education ul li {
+  list-style-type: circle;
+}
+#experience ul li {
+  list-style-type: circle;
+}
+#campus ul li {
+  list-style-type: circle;
+}
+#skills li {
+  list-style-type: circle;
+}
+#resume h4 {
+  font-weight: 500;
+  border-bottom: 2px solid #d3edd3;
+}
+#resume h3 {
+  font-weight: 600;
+  list-style-type: disc;
+  padding-top: 0.66666667em; /* 12 / 18 = 0.66666667 */
+  padding-bottom: 6px;
+}
+#error-page figcaption {
+  position: absolute;
+  bottom: 0;
+  color: #FFFAF0;
+  background-color: #FFFAF0;
+}
+#home-page figcaption {
+  position: absolute;
+  color: #DDD;
+  bottom: inherit;
+  background-color: rgba(0,0,0,0.6);
+}
