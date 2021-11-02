@@ -13,7 +13,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Baseline grid: 24 px, Base font-size: 18px */
 html {
-  font-family: "Petrona", "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  font-family: "Petrona", "Hoefler Text", 'Georgia', "Times New Roman","serif";
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.33333333em; /* 24 / 18 = 1.33333333 */
   padding: 1.33333333em; /* 24 / 18 = 1.33333333 */
@@ -29,7 +29,7 @@ html {
   width: 19.4444444em;  /* 350 / 18 = 19.4444444 */
   margin: 0 0.5em 0 0;
   float: left;
-  shape-outside: square();
+  shape-outside: circle();
 }
 @supports (display: grid) {
   html {
@@ -76,7 +76,7 @@ h2 {
   position: absolute;
   bottom: 0;
   color: #FFFAF0;
-  background-color: #FFFAF0;
+  background-color: rgba(255,0,0,0.3);
 }
 #home-page figcaption {
   position: absolute;
@@ -139,4 +139,40 @@ footer {
 }
 .nav a:hover {
   background: #f6dcfa;
+}
+/* State */
+
+@media screen and (min-width: 330px) {
+  .nav {
+    display: flex;
+  }
+  .nav::after {
+    content: "";
+    display: block;
+    clear: both;
+    float: none;
+  }
+  .nav li {
+    text-align: center;
+    float: left;
+    width: 33.3333333333%;
+    flex: 1 1 auto;
+  }
+  @supports (display: flex) {
+    .nav li {
+      width: auto;
+    }
+  }
+@media screen and (min-width: 286px) {
+  .audio {
+    display: flex;
+    max-width: 50%;
+  }
+}
+  .nav a {
+    margin-right: 0.66666666em; /* 12 / 18 = 0.666666666 */
+  }
+  .nav li:last-child a {
+    margin-right: 0;
+  }
 }
