@@ -84,3 +84,59 @@ h2 {
   bottom: inherit;
   background-color: rgba(0,0,0,0.6);
 }
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 20%)
+}
+#resume aside {
+  float: right;
+  padding-left: 6px;
+}
+figcaption {
+  font-size: 0.75em;
+}
+#music {
+  grid-column: 1 / 6;
+}
+header,
+footer,
+main,
+nav,
+section {
+  grid-column: 2 / 5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: 1px solid #faefaa;
+  box-sizing: border-box;
+}
+h1,
+h2,
+figcaption,
+nav,
+p {
+  padding-bottom: 1.33333333em; /* 24 / 18 = 1.33333333 */
+}
+audio {
+  display: block;
+  max-width: 100%;
+}
+footer {
+  padding-top: 18px;
+}
+/* Modular */
+.nav li {
+  padding-bottom: 0.3333333333333333em; /* 6 / 18 = 0.33333333 */
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+  background: #d3edd3;
+  color: #222;
+  padding: 0.6666666666666666em; /* 12 / 18 = 0.66666666 */
+}
+.nav a:hover {
+  background: #f6dcfa;
+}
