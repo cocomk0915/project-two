@@ -10,3 +10,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+/* Baseline grid: 24 px, Base font-size: 18px */
+html {
+  font-family: "Petrona", "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.33333333em; /* 24 / 18 = 1.33333333 */
+  padding: 1.33333333em; /* 24 / 18 = 1.33333333 */
+  background: #FFFAF0;
+  color: #222;  /* Work on Typographic Grid and look at instructions again */
+}
