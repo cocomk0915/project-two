@@ -17,6 +17,7 @@ html {
   background: #FFFAF0;
   color: #222;  /* Work on Typographic Grid and look at instructions again */
 }
+
 #error-page body {
   display: block;
 }
@@ -26,7 +27,6 @@ html {
   width: 19.4444444em;  /* 350 / 18 = 19.4444444 */
   margin: 0 0.5em 0 0;
   float: left;
-  shape-outside: circle();
 }
 @supports (display: grid) {
   html {
@@ -105,10 +105,11 @@ section {
 
 img {
   display: block;
-  max-width: 100%;
+  padding: 0em;
   border: 1px solid #faefaa;
   box-sizing: border-box;
 }
+
 h1,
 h2,
 figcaption,
@@ -163,7 +164,7 @@ footer {
 @media screen and (min-width: 286px) {
   .audio {
     display: flex;
-    max-width: 50%;
+    width: 50%;
   }
 }
   .nav a {
