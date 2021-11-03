@@ -47,12 +47,15 @@ h2 {
   font-weight: 600;
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
 }
-#education ul li {
-  list-style-type: circle;
-}
+
 #skills li {
   list-style-type: circle;
 }
+
+#education ul li {
+  list-style-type: circle;
+}
+
 #experience ul li {
   list-style-type: circle;
 }
