@@ -18,7 +18,7 @@ html {
   color: #222;  /* Work on Typographic Grid and look at instructions again */
 }
 
-#error-page body {
+#error-message body {
   display: block;
 }
 #home-page img {
@@ -43,9 +43,17 @@ h1 {
   font-weight: 700;
   font-size: 1.77688889em; /* 31.984 / 18 = 1.77688889 */
 }
+
 h2 {
   font-weight: 600;
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  padding-top: 1em;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 0.5em;
 }
 
 #skills li {
@@ -56,12 +64,10 @@ h2 {
   list-style-type: circle;
 }
 
-#experience ul li {
+#work-experience ul li {
   list-style-type: circle;
 }
-#campus ul li {
-  list-style-type: circle;
-}
+
 #resume h4 {
   font-weight: 500;
   border-bottom: 2px solid #d3edd3;
@@ -72,7 +78,7 @@ h2 {
   padding-top: 0.66666667em; /* 12 / 18 = 0.66666667 */
   padding-bottom: 6px;
 }
-#error-page figcaption {
+#error-message figcaption {
   position: absolute;
   bottom: 0;
   color: #FFFAF0;
@@ -82,8 +88,15 @@ h2 {
   position: absolute;
   color: #DDD;
   bottom: inherit;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.6)
 }
+
+#website-nav ul {
+  background-color: pink;
+  padding: 10px;
+  display; ;
+}
+
 body {
   display: grid;
   grid-template-columns: repeat(5, 20%)
