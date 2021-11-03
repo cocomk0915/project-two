@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
-@import url("#//basehold.it/24");
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -13,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Baseline grid: 24 px, Base font-size: 18px */
 html {
-  font-family: "Petrona", "Hoefler Text", 'Georgia', "Times New Roman","serif";
+  font-family: "Open Sans", sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.33333333em; /* 24 / 18 = 1.33333333 */
   padding: 1.33333333em; /* 24 / 18 = 1.33333333 */
@@ -53,13 +50,13 @@ h2 {
 #education ul li {
   list-style-type: circle;
 }
+#skills li {
+  list-style-type: circle;
+}
 #experience ul li {
   list-style-type: circle;
 }
 #campus ul li {
-  list-style-type: circle;
-}
-#skills li {
   list-style-type: circle;
 }
 #resume h4 {
