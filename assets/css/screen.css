@@ -91,11 +91,12 @@ h3 {
   background-color: rgba(0,0,0,0.6)
 }
 
-#website-nav ul {
+#website-nav li {
   background-color: pink;
   padding: 10px;
-  display; ;
+  display: inline-flex;
 }
+
 
 body {
   display: grid;
