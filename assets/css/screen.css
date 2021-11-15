@@ -157,7 +157,21 @@ footer {
 }
 /* State */
 
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 286px) {
+  .audio {
+    display: flex;
+    max-width: 50%;
+  }
+}
+  .nav a {
+    margin-right: 0.66666666em; /* 12 / 18 = 0.666666666 */
+  }
+  .nav li:last-child a {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 380px) {
   .nav {
     display: flex;
   }
@@ -178,16 +192,3 @@ footer {
       width: auto;
     }
   }
-@media screen and (min-width: 286px) {
-  .audio {
-    display: flex;
-    max-width: 50%;
-  }
-}
-  .nav a {
-    margin-right: 0.66666666em; /* 12 / 18 = 0.666666666 */
-  }
-  .nav li:last-child a {
-    margin-right: 0;
-  }
-}
